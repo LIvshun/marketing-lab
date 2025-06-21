@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marketing Lab</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <header class="bg-light py-3 border-bottom">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="d-flex align-items-center">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="10" stroke="#0d6efd" stroke-width="2" fill="#e9f2ff" />
+          <path d="M8 12h8M12 8v8" stroke="#0d6efd" stroke-width="2" stroke-linecap="round" />
+        </svg>
+        <span class="fw-bold fs-5">Marketing Lab</span>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link" href="./index.html">Головна</a></li>
+          <li class="nav-item"><a class="nav-link" href="./about.html">Про Нас</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contacts.html">Контакти</a></li>
+          <li class="nav-item"><a class="nav-link" href="./order.html">Замовити послугу</a></li>
+          <li class="nav-item"><a class="nav-link" href="./career.html">Кар'єра</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container mt-5">
+    <h1 class="mb-4">Приєднуйтесь до нашої команди</h1>
+    <p>Ми завжди у пошуку талановитих і амбітних людей, які хочуть розвиватися у сфері маркетингу. Якщо ви готові до нових викликів — заповніть форму нижче, і ми обов'язково з вами зв’яжемося.</p>
+    <form class="mt-4">
+      <div class="mb-3">
+        <label for="name" class="form-label">Ім’я</label>
+        <input type="text" class="form-control" id="name" placeholder="Ваше ім’я" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="phone" class="form-label">Номер телефону</label>
+        <input type="tel" class="form-control" id="phone" placeholder="+38 (0__) ___-__-__" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Електронна пошта</label>
+        <input type="email" class="form-control" id="email" placeholder="example@email.com" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="skills" class="form-label">Опишіть ваші навички</label>
+        <textarea class="form-control" id="skills" rows="4" placeholder="Ваш досвід, вміння, досягнення..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Надіслати заявку</button>
+    </form>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <h5>Корисні посилання</h5>
+          <ul class="list-unstyled">
+            <li><a href="/">Instagram</a></li>
+            <li><a href="/">Facebook</a></li>
+            <li><a href="/">X (Twitter)</a></li>
+            <li><a href="/">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 mb-3">
+          <h5>Контакти</h5>
+          <ul class="list-unstyled">
+            <li>+38 (068) 331-06-60</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
